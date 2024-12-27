@@ -1,0 +1,247 @@
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #ffe5b4, #ffffff);
+    color: #333;
+}
+
+/* Page Container */
+.page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.main {
+    width: 90%;
+    max-width: 1200px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #ff8c00;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.navbar .logo {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #fff0d4;
+}
+
+
+.content-dropdown{
+    display:none;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    opacity: 0.5;
+    position: absolute;
+}
+/* Dropdown Menu */
+.menu ul .dropdown:hover .content-dropdown {
+    display: block;
+}
+
+.content-dropdown li a:hover {
+    color: #ff6200;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch-bar {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid #ff8c00;
+    outline: none;
+    width: 250px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff6200;
+}
+
+/* Content Section */
+.content {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff8e6;
+    border-radius: 0 0 15px 15px;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #ff8c00;
+}
+
+.content h1 span {
+    color: #ff6200;
+}
+
+.content .para {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.btnn {
+    padding: 12px 25px;
+    background: #ff6200;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btnn:hover {
+    background: #e65500;
+}
+
+/* Form Section */
+.form {
+    background: #ffffff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ff6200;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.form input:focus {
+    border-color: #ff8c00;
+}
+
+.btnnn {
+    padding: 10px 20px;
+    background: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnnn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btnnn:hover {
+    background: #ff6200;
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.link a {
+    color: #ff8c00;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.liw {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Social Media Icons */
+.icon a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #ff8c00;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.icon a:hover {
+    color: #ff6200;
+}
